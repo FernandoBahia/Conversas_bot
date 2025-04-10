@@ -2,15 +2,15 @@
 Script em Python e Database MySQL para criação de histórico de conversa que sera implementado no código de um colega que esta criando um Bot para automatizar atendimentos.
 
 
-## No seu SGBD de preferencia siga os passos a seguir
-## Criar o database que sera usado, no caso foi criado o "db_conversasbot" no MySQL
-## Criar a tabela que sera ultilizada, criei a tabela "conversas"
-## Atribuir os campos necessários para o funcionaneto do database, foram adiconados os campos "ID, numero_contato, mensagem_enviada e resposta_bot"
-## Apos isso se necessário popule a tabela, inseri alguns dados ficticios nos campos para demonstração
+- No seu SGBD de preferencia siga os passos a seguir
+- Criar o database que sera usado, no caso foi criado o "db_conversasbot" no MySQL
+- Criar a tabela que sera ultilizada, criei a tabela "conversas"
+- Atribuir os campos necessários para o funcionaneto do database, foram adiconados os campos "ID, numero_contato, mensagem_enviada e resposta_bot"
+- Apos isso se necessário popule a tabela, inseri alguns dados ficticios nos campos para demonstração
 
-## Agora usando alguma IDE para codar
-## Ultilizei o Vs Code e importei as bibliotecas "mysql.connector" para conectar ao MySql e o "time" que é para manipular o tempo
-## Apos isso inicei a configuração e setei os paramentros do ambiente 
+- Agora usando alguma IDE para codar
+- Ultilizei o Vs Code e importei as bibliotecas "mysql.connector" para conectar ao MySql e o "time" que é para manipular o tempo
+ - Apos isso inicei a configuração e setei os paramentros do ambiente 
 
 conn = mysql.connector.connect(...): Estabelece uma conexão com o servidor MySQL usando as credenciais fornecidas.
 cursor = conn.cursor(): Cria um cursor para executar comandos SQL.
