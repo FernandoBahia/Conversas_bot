@@ -5,7 +5,7 @@ def criar_banco():
     conn = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='Cadeado01@'
+        password='sua_senha'
     )
     cursor = conn.cursor()
     cursor.execute('CREATE DATABASE IF NOT EXISTS db_conversasbot')
