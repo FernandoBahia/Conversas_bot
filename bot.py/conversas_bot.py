@@ -25,7 +25,7 @@ def armazenar_conversa(numero_contato, mensagem_enviada, resposta_bot):
     conn = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='Cadeado01@',
+        password='sua_senha',
         database='db_conversasbot'
     )
     cursor = conn.cursor()
