@@ -1,5 +1,5 @@
 # Conversas_bot
-Script em Python e Database MySQL para criação de histórico de conversa que sera implementado no código de um colega que esta criando um Bot para Whatsapp automatizar atendimentos.
+Script em Python e Database MySQL para criação de histórico de conversa para bot de atendimento via whatsapp
 
 
 - No seu SGBD de preferencia siga os passos a seguir
